@@ -30,8 +30,8 @@ const recipes = [
     { name: "Ёрш", image: "fu.png", ingredients: ["алкоголь", "кофе", "вода", "черника", "молоко", "хлеб", "какао-порошок", "корица", "финики", "творог", "мед", "мята", "орео", "тапиока", "черный чай (листовой)", "карамель"] },
     { name: "Квас", image: "kvas.png", ingredients: ["хлеб", "вода"] },
     { name: "Любимый лимонад мыши", image: "limonade.png", ingredients: ["гранат", "вода"] },
-    { name: "Кот", image: "kot.png", ingredients: ["гранат", "щепотка шерсти"] }
-    
+    { name: "Кот", image: "kot.png", ingredients: ["гранат", "щепотка шерсти"] },
+    { name: "ХЛЕБ", image: "hleb.png", ingredients: ["хлеб"] }
 ];
 
 let selectedIngredients = [];
