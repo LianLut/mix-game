@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Микс-Игра | Смешай напиток</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🥤 Смешай свой напиток</h1>
+        
+        <div class="game-area">
+            <div class="ingredients-panel">
+                <h2>Выбери ингредиенты:</h2>
+                <div class="ingredients-grid" id="ingredients-grid"></div>
+                <button id="mix-btn" class="mix-btn">🧴 Смешать в шейкере!</button>
+            </div>
+            
+            <div class="result-panel">
+                <div id="shaker" class="shaker hidden">
+                    <div class="shaker-image">
+                        <img src="static/images/shaker.png" alt="Шейкер" id="shaker-img">
+                    </div>
+                    <div class="shake-text">Трясем... 🎵</div>
+                </div>
+                
+                <div id="result" class="result hidden">
+                    <h2>Ваш напиток:</h2>
+                    <img id="result-img" class="result-img" src="" alt="Напиток">
+                    <h3 id="result-name"></h3>
+                </div>
+            </div>
+        </div>
+        
+        <button id="reset-btn" class="reset-btn hidden">🔄 Приготовить новый</button>
+    </div>
+    
+    <script src="static/script.js"></script>
+</body>
+</html>
