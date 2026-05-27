@@ -36,8 +36,8 @@ const recipes = [
     { name: "Любимый", image: "sok.png", ingredients: ["гранат", "вода", "яблоко"] },
     { name: "Любимый", image: "sok.png", ingredients: ["черника", "вода", "яблоко"] },
     { name: "Любимый", image: "sok.png", ingredients: ["вода", "яблоко"] },
-    { name: "Холодный кофи", image: "sok.png", ingredients: ["орео", "тапиока", "кофе", "молоко"] },
-    { name: "Мятный чай", image: "sok.png", ingredients: ["вода", "чай черный (листовой)", "мята"] }
+    { name: "Холодный кофи", image: "holod.png", ingredients: ["орео", "тапиока", "кофе", "молоко"] },
+    { name: "Мятный чай", image: "mchai.png", ingredients: ["вода", "чай черный (листовой)", "мята"] }
     
 ];
 
