@@ -20,7 +20,8 @@ const recipes = [
     { name: "Чай", image: "tea.png", ingredients: ["вода", "черный чай (листовой)"] },
     { name: "Какао с молоком", image: "cacao.png", ingredients: ["молоко", "какао-порошок"] },
     { name: "Какао на воде", image: "cacao_water.png", ingredients: ["вода", "какао-порошок"] },
-    { name: "Молочный коктейль", image: "milkshake.png", ingredients: ["черника", "молоко"] }
+    { name: "Молочный коктейль", image: "milkshake.png", ingredients: ["черника", "молоко"] },
+    { name: "Новейший рецепт", image: "novy.png", ingredients: ["кофе", "творог"] }
 ];
 
 let selectedIngredients = [];
