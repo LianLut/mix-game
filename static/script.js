@@ -3,6 +3,7 @@ const ingredientsList = [
     "финики", "творог", "мед", "мята", "кофе", "орео",
     "тапиока", "черный чай (листовой)", "карамель",
     "алкоголь", "хлеб", "гранат", "щепотка шерсти",
+    "яблоко"
 ];
 
 const recipes = [
@@ -31,7 +32,11 @@ const recipes = [
     { name: "Квас", image: "kvas.png", ingredients: ["хлеб", "вода"] },
     { name: "Любимый лимонад мыши", image: "limonade.png", ingredients: ["гранат", "вода"] },
     { name: "Кот", image: "kot.png", ingredients: ["гранат", "щепотка шерсти"] },
-    { name: "ХЛЕБ", image: "hleb.png", ingredients: ["хлеб"] }
+    { name: "ХЛЕБ", image: "hleb.png", ingredients: ["хлеб"] },
+    { name: "Любимый", image: "sok.png", ingredients: ["гранат", "вода", "яблоко"] },
+    { name: "Любимый", image: "sok.png", ingredients: ["черника", "вода", "яблоко"] },
+    { name: "Любимый", image: "sok.png", ingredients: ["вода", "яблоко"] }
+    
 ];
 
 let selectedIngredients = [];
