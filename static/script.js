@@ -21,7 +21,8 @@ const recipes = [
     { name: "Какао с молоком", image: "cacao.png", ingredients: ["молоко", "какао-порошок"] },
     { name: "Какао на воде", image: "cacao_water.png", ingredients: ["вода", "какао-порошок"] },
     { name: "Молочный коктейль", image: "milkshake.png", ingredients: ["черника", "молоко"] },
-    { name: "Новейший рецепт", image: "novy.png", ingredients: ["кофе", "творог"] }
+    { name: "Новейший рецепт", image: "novy.png", ingredients: ["кофе", "творог"] },
+    { name: "Китайское пиво", image: "pivo.png", ingredients: ["кофе", "вода", "черника", "молоко", "какао-порошок", "корица", "финики", "творог", "мед", "мята", "орео", "тапиока", "черный чай (листовой)", "карамель"] }
 ];
 
 let selectedIngredients = [];
